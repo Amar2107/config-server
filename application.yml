@@ -6,3 +6,11 @@ eureka:
       default-zone: http://localhost:8761/eureka/
     instance:
       hostname: localhost
+
+rabbitmq:
+  queue:
+    name: payment_queue
+  exchange:
+    name: payment_exchange
+  routing:
+    key: payment_key
