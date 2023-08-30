@@ -14,3 +14,11 @@ rabbitmq:
     name: payment_exchange
   routing:
     key: payment_key
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: *
+    health:
+      show-detials: always
