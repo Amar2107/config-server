@@ -19,6 +19,8 @@ management:
   endpoints:
     web:
       exposure:
-        include: info, health, metrics
+        include: "*"
     metrics:
       enabled: true
+    health:
+      show-details: always
