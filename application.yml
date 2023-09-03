@@ -24,3 +24,8 @@ management:
       enabled: true
     health:
       show-details: always
+
+executor-props:
+  core-pool-size: 3
+  max-pool-size: 3
+  queue-capacity: 100
